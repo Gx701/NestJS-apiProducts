@@ -10,7 +10,7 @@ export class AuthService {
   async validateUser(username: string, password: string) {
     const users: User[] = [
       {
-        username: 'hugo.roca',
+        username: 'jose.r',
         password: '123456',
         role: 'admin',
         id: 1,
